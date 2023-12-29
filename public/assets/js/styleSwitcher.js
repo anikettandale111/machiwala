@@ -25,7 +25,7 @@ function addSwitcher()
 
 (function($) {
     "use strict"
-	addSwitcher();
+	// addSwitcher();
 
 	
     const body = $('body');

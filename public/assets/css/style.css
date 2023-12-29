@@ -8881,7 +8881,7 @@ label {
 
 [data-sidebar-style="mini"] .nav-control,
 [data-layout="horizontal"] .nav-control {
-  display: none; }
+  display: block !important; }
 
 @media only screen and (max-width: 767px) {
   [data-sidebar-style="overlay"] .nav-header .logo-abbr {

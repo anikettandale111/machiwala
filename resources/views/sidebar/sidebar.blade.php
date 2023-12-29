@@ -26,13 +26,13 @@
                 </div>
             </li>
             <li>
-                <a class="ai-icon" href="javascript:void()" aria-expanded="false">
+                <a class="ai-icon" href="{{url('/home')}}" aria-expanded="false">
                     <!-- <i class="flaticon-025-dashboard"></i> -->
                     <span class="nav-text">Dashboard</span>
                 </a>
             </li>
             <li>
-                <a class="ai-icon" href="javascript:void()" aria-expanded="false">
+                <a class="ai-icon" href="{{url('/user/table')}}" aria-expanded="false">
                     <!-- <i class="flaticon-025-dashboard"></i> -->
                     <span class="nav-text">Users</span>
                 </a>
