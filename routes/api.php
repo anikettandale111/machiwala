@@ -22,5 +22,7 @@ use App\Http\Controllers\API\APIController;
 Route::get('/testcallapi', [APIController::class, 'testApiCall']);
 Route::post('/register', [APIController::class, 'register']);
 Route::post('/verifyotp', [APIController::class, 'verifyOTP']);
+Route::post('/resendotp', [APIController::class, 'resendOTP']);
 Route::post('/login', [APIController::class, 'login']);
+Route::post('/profileupdate', [APIController::class, 'profileUpdate']);
 // Route::middleware('auth:api')->get('/endpoint', [APIController::class, 'testApiCall']);
